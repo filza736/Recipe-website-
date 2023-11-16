@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPES</title>
+                                     <!-- bootstrap CDNS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- STYLE FILE LINL -->
+<link rel="stylesheet" href="STYLE.CSS">
+</head>
+<style>
+.doctors .boxContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+.doctors .boxContainer .box {
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 0.2rem solid var(--main);
+  box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+}
+.doctors .boxContainer .box:hover {
+  transform: scale(1.03);
+}
+.doctors img {
+  border: 0.2rem solid green;
+  border-radius: 0.5rem;
+  height: 12rem;
+  width: 100%;
+  margin-top: 1rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.doctors .boxContainer .box:hover img {
+  transform: scale(1.08);
+}
+.doctors .boxContainer .box h3 {
+  font-size: 2.5rem;
+}
+.doctors .box span {
+  /* color: var(--main); */
+  font-size: 1.5rem;
+}
+/* .doctors .boxContainer .box .icons {
+  padding-top: 2rem;
+} */
+.doctors .boxContainer .box .icons i {
+  font-size: 2rem;
+  line-height: 4.5rem;
+  height: 3rem;
+  width: 3rem;
+  /* color: var(--main);
+  border: 0.2rem solid var(--main); */
+  border-radius: 0.5rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+.doctors .boxContainer .box .icons i:hover {
+  /* background: var(--main); */
+  color: #fff;
+}
+</style>
+<body>
+    <!-- NAV START -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-light">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="index.html">RECIPES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto my-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="user recipe/product-form (1).html">ADD YOUR OWN RECIPES</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link " aria-disabled="true">ABOUT US</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV END -->
+      <!-- CAROUSEL START -->
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMAGES/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+              <h5>Delicious Food RECIPES</h5>
+              <p>Some representative placeholder content for the first slide.<br><a><button type="button" class="btn btn-success">EASTERN</button></a></p>              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGES/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Delicious Food RECIPES</h5>
+              <p>Some representative placeholder content for the third slide.<br><a><button type="button" class="btn btn-success">WESTERN</button></a></p>       
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGES/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Delicious Food RECIPES</h5>
+              <p>Some representative placeholder content for the second slide.<br><a><button type="button" class="btn btn-success">DESERT</button></a></p>             
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- CAROUSEL END -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- cards section  -->
+      <div class="container">
+        <h1 class="text-center">EASTERN FOOD</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- EASTERN FOOD -->
+        <div class="container">
+          <section class="doctors" id="Doctors">
+    
+            <div class="boxContainer">
+    
+              <div class="box">
+                <img src="IMAGES/birani.avif" alt="">
+                <h3>Biryani</h3>
+                <a href="biryani.html" class="btn btn-success"> click here</a>
+            </div>
+    
+                <div class="box">
+                  <img src="IMAGES/nihari.jpg" alt="">
+                  <h3>Nihari</h3>
+                  <a href="nihari.html" class="btn btn-success"> click here</a>
+              </div>
+      
+                <div class="box">
+                  <img src="IMAGES/karahi.jpg" alt="">
+                  <h3>Karahi</h3>
+                  <a href="karahi.html" class="btn btn-success"> click here</a>
+              </div>
+    
+                <div class="box">
+                  <img src="IMAGES/dum keema.jpg" alt="">
+                  <h3>Dum Keema</h3>
+                  <a href="dum keema.html" class="btn btn-success"> click here</a>
+              </div>
+    
+                <div class="box">
+                    <img src="IMAGES/mutton kunna.avif" alt="">
+                    <h3>Mutton Kunna</h3>
+                    <a href="mutton kunna.html" class="btn btn-success"> click here</a>
+                </div>
+       
+                <div class="box">
+                  <img src="IMAGES/malai handi.jpg" alt="">
+                  <h3>Malai Handi</h3>
+                  <a href="malai handi.html" class="btn btn-success"> click here</a>
+              </div>   
+            </div>   
+        </section>
+        </div>
+        <!-- eastern food -->
+        <br>
+        <br>
+        <br>
+        <br>    
+        <!-- Western food  -->
+   <h1 class="text-center">WESTERN FOOD</h1>
+   <br>
+   <br>
+   <br>
+   <br> 
+   <div class="container">
+    <section class="doctors" id="Doctors">
+
+      <div class="boxContainer">
+
+        <div class="box">
+          <img src="IMAGES/pizza.jpg" alt="">
+          <h3>Pizza</h3>
+          <a href="pizza.html" class="btn btn-success"> click here</a>
+      </div>
+
+          <div class="box">
+            <img src="IMAGES/pasta.jpg" alt="">
+            <h3>Pasta</h3>
+            <a href="pasta.html" class="btn btn-success"> click here</a>
+        </div>
+
+          <div class="box">
+            <img src="IMAGES/burger.jpg" alt="">
+            <h3>Burger</h3>
+            <a href="burger.html" class="btn btn-success"> click here</a>
+        </div>
+
+          <div class="box">
+            <img src="IMAGES/burrito.jpg" alt="">
+            <h3>Burrito</h3>
+            <a href="burrito.html" class="btn btn-success"> click here</a>
+        </div>
+
+          <div class="box">
+              <img src="IMAGES/chowmein.jpg" alt="">
+              <h3>Chow Mein</h3>
+              <a href="chowmein.html" class="btn btn-success"> click here</a>
+          </div>
+ 
+          <div class="box">
+            <img src="IMAGES/manchurian.jpg" alt="">
+            <h3>Manchurian WD Rice</h3>
+            <a href="manchurian.html" class="btn btn-success"> click here</a>
+        </div>   
+      </div>   
+  </section>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br> 
+    <!-- Western food  -->
+     <!-- DESERT -->
+        <h1 class="text-center">DESERT</h1>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <div class="container">
+          <section class="doctors" id="Doctors">
+    
+            <div class="boxContainer">
+    
+              <div class="box">
+                <img src="IMAGES/waffles.jpg" alt="">
+                <h3>Waffles</h3>
+                <a href="wafflles.html" class="btn btn-success"> click here</a>
+            </div>
+    
+                <div class="box">
+                  <img src="IMAGES/kheer.avif" alt="">
+                  <h3>Kheer</h3>
+                  <a href="kheer.html" class="btn btn-success"> click here</a>
+              </div>
+      
+                <div class="box">
+                  <img src="IMAGES/doughnuts.jpg" alt="">
+                  <h3>Doughnuts</h3>
+                  <a href="doughnuts.html" class="btn btn-success"> click here</a>
+              </div>
+
+    
+                <div class="box">
+                    <img src="IMAGES/brownies.jpg" alt="">
+                    <h3>Brownies</h3>
+                    <a href="brownies.html" class="btn btn-success"> click here</a>
+                </div>
+                         
+                <div class="box">
+                  <img src="IMAGES/custard.jpg" alt="">
+                  <h3>Custard</h3>
+                  <a href="custard.html" class="btn btn-success"> click here</a>
+              </div>
+
+                <div class="box">
+                  <img src="IMAGES/icecream.jpg" alt="">
+                  <h3>Ice Cream</h3>
+                  <a href="ice.html" class="btn btn-success"> click here</a>
+              </div>   
+            </div>   
+        </section>
+        </div>        
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br> 
+                <br>
+
+        <!-- DESERT -->
+
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">RECIPES</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">EASTERN</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">WESTERN</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">DESERT</a></li>
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">ABOUT</a></li>
+            </ul>
+            <p class="text-center text-muted">@Recipes.com</p>
+          </footer>
+        </div>
+</body>
+</html>

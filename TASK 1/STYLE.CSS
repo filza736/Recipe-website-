@@ -1,0 +1,75 @@
+/* global elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    transition: 0.2s all linear;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+/* nav code */
+.navbar{
+    word-spacing: 2px;
+}
+.form-control input{
+   width: 150px;
+cursor: pointer;
+}
+.navbar-brand{
+    font-size: xx-large;
+    text-decoration: underline;
+    color:green;
+}
+
+.bg-body-light{
+    background-color: transparent !important;
+}
+/* nav code */
+/* carosel */
+.carousel-item{
+    height: 100vh;
+    line-height: 300px;
+}
+.carousel-caption{
+    bottom: 280px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* margin-top: 25px; */
+}
+.carousel-caption p{
+    /* width: 60%; */
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    /* line-height: ;
+    background-color: aquamarine; */
+    text-decoration: none;
+    padding: 10px,30px;
+    display: inline-block;
+    color: #000;
+    margin-top: 15px;
+    margin-right: 4px;
+    margin-left: 4px;
+    word-spacing: 3px;
+    /* display: flex;
+    justify-content: space-around; */
+    align-items: normal;
+
+}
+/* carosel */
+
+/* .modal-dialog{
+    width: 200%;
+    height: 180%;
+} */

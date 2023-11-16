@@ -1,0 +1,86 @@
+body{
+    margin-top:20px;
+    /* background: #6da6e0; */
+    background: linear-gradient(60deg,  rgb(83, 79, 79), rgb(9, 160, 37));
+}
+
+.account-block {
+    padding: 0;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 800px!important;
+    position: relative;
+}
+.account-block .overlay {
+    -webkit-box-flex: 1;
+    height:  800px!important;
+    -ms-flex: 1;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background: linear-gradient(60deg, rgb(9, 160, 37),  rgb(83, 79, 79));
+}
+.account-block .account-testimonial {
+    text-align: center;
+    /* color: #eeeaea; */
+    background: linear-gradient(60deg, rgb(9, 160, 37),  rgb(83, 79, 79));
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 1.75rem;
+ 
+    left: 0;
+    right: 0;
+}
+
+.text-theme {
+    color: #5369f8 !important;
+}
+
+.btn{
+    
+    color:#111!important;
+}
+.card{
+    height: 800px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#store {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+  }
+  
+  #store th,
+  #store td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  #store th {
+    background-color: #111;
+    color: white;
+  }
+
+  .filza{
+background-image: url(download\ \(1\).jpeg);
+  }
